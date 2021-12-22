@@ -38,4 +38,82 @@ ul {
     align-items: center;
     background-color: #1F2937;
     padding: 10px;
+    margin-bottom: 50px;
+    margin: 10px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.hero.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 200px;
+    width: 500px;
+}
+
+.hero.right{
+    flex-direction: column;
+    align-items: flex-start;
+    height: 200px;
+    width: 500px;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB;
+}
+
+.hero.right{
+    display: flex;
+}
+
+.hero.left h1, h5{
+    margin: 0;
+}
+
+.image-placeholder{
+    display: flex;
+    background-color: #8e9399;
+    height: 200px;
+    width: 500px;
+}
+
+.image-placeholder > h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+    color: #E5E7EB;
+}
+
+.signup1{
+    background: #3882F6;
+    border-color: #1F2937;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0;
+    width: 120px;
+    height: 100px;
+    color: #E5E7EB;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 0;
 }
