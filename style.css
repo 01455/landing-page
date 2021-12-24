@@ -137,12 +137,21 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #1F2937;
 }
 
 .wrapper2{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.wrapper3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
 }
 
 .second{
@@ -150,6 +159,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #E5E7EB;
     width: 1110px;
 }
 
@@ -189,15 +199,27 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #E5E7EB;
+    width: 1110px;
 }
 
 .quotebox{
     display: flex;
-    background-color: #1F2937;  
+    flex-direction: column;
+    background-color: #E5E7EB;
+    max-width: 690px;
 }
 
-.mainquotebox{
-    font-weight: 36px;
+.mainquote{
+    font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    margin-bottom: 0;
+}
+
+.subquote{
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 470px;
+    margin-top: 15px;
 }
