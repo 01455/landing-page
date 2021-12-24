@@ -152,6 +152,8 @@ ul {
     align-items: center;
     flex-direction: column;
     background-color: #E5E7EB;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .wrapper4{
@@ -167,6 +169,7 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
+    flex: 1;
     width: 1110px;
 }
 
@@ -207,6 +210,7 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
+    flex: 1;
     width: 1110px;
 }
 
@@ -240,6 +244,7 @@ ul {
     margin-top: 36px;
     margin-bottom: 36px;
     width: 1110px;
+    flex: 1;
 }
 
 .calltoaction{
@@ -285,4 +290,12 @@ ul {
     width: 690px;
     justify-content: space-between;
     align-items: center;
+}
+
+footer{
+    background: #1F2937;
+    flex-shrink: 0;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 30px;
 }
